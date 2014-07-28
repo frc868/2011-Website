@@ -1,0 +1,215 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+  <style type="text/css">
+body
+{
+background-color:#000000;
+background-image:url('images/bannerback8.png');
+background-repeat:repeat-x;
+}
+
+ div.main_menu {
+      position: absolute;
+      top: 70px;
+      left: 275px;
+	  width:780px;
+      /*border: solid 1px black;*/
+    }
+
+    ul.main_menu, ul.sub_menu {
+      margin: 0;
+      padding: 0;
+      /*border: solid 1px blue;*/
+      list-style-type: none;
+    }
+
+    li.main_menu {
+      float: left;
+      width: 100px;
+      text-align: center;
+      /*border: solid 1px blue;*/
+      padding: 5px 2px 5px 2px;
+      font-family: arial, sans-serif;
+      font-size: 12px;
+    }
+
+    li.main_menu_select {
+      float: left;
+      width: 100px;
+	  background-color:#131a27;
+      text-align: center;
+      /*border: solid 1px blue;*/
+      padding: 5px 0px 5px 0px;
+      font-family: arial, sans-serif;
+      font-size: 12px;
+	  font-color:#161e2c;
+	  border-right-style: solid ;
+	  border-left-style: solid ;
+	  border-color: #fec50b;
+	  border-width:5px;
+    }
+
+    div.sub_menu {
+      position: absolute;
+      top: 100px;
+      left: 275px;
+	  height: 35px;
+      text-align: center;
+      visibility: hidden;
+    }
+
+    li.sub_menu {
+      float: left;
+      /* width: 120px; */
+      text-align: center;
+      /* border: solid 1px blue; */
+    }
+
+    a.sub_menu {
+      padding: 5px 2px 5px 2px;
+      font-family: arial, sans-serif;
+      font-size: 10px;
+      display: block;
+      width: 100%;
+	  text-decoration:none;
+	  color:#FFFFFF;
+	  
+    }
+	a:hover
+	{
+	text-decoration:underline;
+	color:#fec50b;
+	}
+	a:visited
+	{
+	color:#FFFFFF
+	}
+  </style>
+<script type="text/javascript">
+    
+
+
+function show_menu(object) {
+    for (i=1; i<8; i++) {
+      mainmenu = "main" + i;
+      submenu = "sub" + i;
+      if (object == i) {
+        document.getElementById(mainmenu).className = "main_menu_select";
+        document.getElementById(submenu).style.visibility = "visible";
+      } else {
+        document.getElementById(mainmenu).className = "main_menu";
+        document.getElementById(submenu).style.visibility = "hidden";
+      }
+    }
+}
+
+  </script>
+<title>Menu</title>
+</head>
+<a href="main.html" target="mainFrame"><img src="images/logoback2.png" width="275" height="125" border="0" alt="TechHOUNDS logo" style="
+	position:relative;
+	margin-top:-10px;
+	margin-left:-8px;
+	padding:0px;">
+</a>
+<div>
+	<img src="images/award08.jpg" alt="Website Excellence Award for 2008" border="0" height="30" width="83" style="
+		margin-top:-115px;
+		margin-left:500px;
+		position:fixed;">
+	<img src="images/award09.jpg" alt="Website Excellence Award for 2009" border="0" height="30" width="83" style="
+		margin-top:-115px;
+		margin-left:600px;
+		position:fixed;">
+	<img src="images/award10.jpg" alt="Best Website Award for 2010" border="0" height="30" width="83" style="
+		margin-top:-115px;
+		margin-left:700px;
+		position:fixed;">
+<div style="
+	margin-top:-85px;
+	position:fixed;
+	margin-left:755px;
+">
+<font face="Trebuchet MS" color="#D8D8D8" size="2">
+Carmel High School - Carmel, Indiana
+</font>
+</div>
+<div style="
+	margin-left:800px;
+	margin-top:-115px;
+	position:fixed;">
+<form action="http://www.google.com/cse" id="cse-search-box">
+    <input type="hidden" name="cx" value="011281679850366298374:dc5lpcjnbv8" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" name="q" size="15" />
+    <input type="submit" name="sa" value="Search" />
+</form>
+</div>
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
+
+</div>
+<center>
+<div class="main_menu">
+<ul class="main_menu">
+  <font color="#FFFFFF"><b><li class="main_menu" id="main1" onMouseOver="show_menu(1);" style="border-left-width:4px;border-left-style:solid;border-color:#fec50b;"><a href="main.html" target="mainFrame" style="color:FFFFFF;text-decoration:none;">Home</a></li>
+  <li class="main_menu" id="main2" onMouseOver="show_menu(2);">Team</li>
+  <li class="main_menu" id="main3" onMouseOver="show_menu(3);">FIRST</li>
+  <li class="main_menu" id="main5" onMouseOver="show_menu(5);">Media</li>
+  <li class="main_menu" id="main4" onMouseOver="show_menu(4);">Sponsors</li>
+  <li class="main_menu" id="main6" onMouseOver="show_menu(6);">'10 Season</li>
+  <li class="main_menu" id="main7" onMouseOver="show_menu(7);"><a href="contact/contacts.html" target="mainFrame" style="color:FFFFFF;text-decoration:none;"><font color="#FFFFFF">Contact</font></a></li>
+</b></font></ul>
+</div>
+
+<div class="sub_menu" id="sub1">
+<ul class="sub_menu">
+</ul>
+</div>
+
+<div class="sub_menu" id="sub2">
+<ul class="sub_menu">
+  <font color="#FFFFFF"><li class="sub_menu"><a class="sub_menu" style="width:100px;" href=""></a></li> <!-- spacer -->
+  <li class="sub_menu"><a class="sub_menu" style="width:100px;color:#FFFFFF;" href="team/aboutus/about.html" target="mainFrame">ABOUT US</a></li>
+  <li class="sub_menu"><a class="sub_menu" style="width:100px;color:#FFFFFF;" href="team/awards/awards.html" target="mainFrame">AWARDS</a></li>
+  <li class="sub_menu"><a class="sub_menu" style="width:100px;color:#FFFFFF;" href="team/branches/branches.html" target="mainFrame">BRANCHES</a></li>
+  <li class="sub_menu"><a class="sub_menu" style="width:100px;color:#FFFFFF;" href="team/FIRSTEP/FIRSTEP.html" target="mainFrame">FIRSTEP</a></li>
+  <li class="sub_menu"><a class="sub_menu" style="width:100px;color:#FFFFFF;" href="team/pastseasonarch/seasonarchive.html" target="mainFrame">SEASON ARCHIVE</a></li>
+  <li class="sub_menu"><a class="sub_menu" style="width:100px;color:#FFFFFF;" href="team/members/memberbios.html" target="mainFrame">MEMBERS</a></li>
+	</font></ul>
+</div>
+
+<div class="sub_menu" id="sub3">
+<ul class="sub_menu">
+  <li class="sub_menu"><a class="sub_menu" style="width:200px;" href=""></a></li> <!-- spacer -->
+  <li class="sub_menu"><a class="sub_menu" style="color:#FFFFFF;width:100px;" href="FIRST/aboutFIRST/summary.html" target="mainFrame">ABOUT FIRST</a></li>
+  <li class="sub_menu"><a class="sub_menu" style="color:#FFFFFF;width:100px;" href="FIRST/gamearch/gamehistory.html" target="mainFrame">GAME ARCHIVE</a></li>
+  <li class="sub_menu"><a class="sub_menu" style="color:#FFFFFF;width:100px;" href="FIRST/scholarships/scholarships.html" target="mainFrame">SCHOLARSHIPS</a></li>
+  <li class="sub_menu"><a class="sub_menu" style="color:#FFFFFF;width:100px;" href="http://www.usfirst.org/" target="_none">FIRST WEBSITE</a></li>
+</ul>
+</div>
+
+<div class="sub_menu" id="sub4">
+<ul class="sub_menu">
+  <li class="sub_menu"><a class="sub_menu" style="width:400px;" href=""></a></li> <!-- spacer -->
+  <li class="sub_menu"><a class="sub_menu" style="color:#FFFFFF;width:125px;" href="sponsors/currentspons/sponsors.html" target="mainFrame">CURRENT SPONSORS</a></li>
+  <li class="sub_menu"><a class="sub_menu" style="color:#FFFFFF;width:125px;" href="sponsors/becomespons/become_a_sponsor.html" target="mainFrame">BECOME A SPONSOR</a></li>
+</ul>
+</div>
+
+<div class="sub_menu" id="sub5">
+<ul class="sub_menu">
+  <li class="sub_menu"><a class="sub_menu" style="width:300px;" href=""></a></li> <!-- spacer -->
+  <li class="sub_menu"><a class="sub_menu" style="color:#FFFFFF;width:100px;" href="media/newsletter/newsletter.html" target="mainFrame">NEWSLETTER</a></li>
+  <li class="sub_menu"><a class="sub_menu" style="color:#FFFFFF;width:100px;" href="media/pictures/pictures.html" target="mainFrame">PICTURES</a></li>
+  <li class="sub_menu"><a class="sub_menu" style="color:#FFFFFF;width:100px;" href="media/videos/videos.html" target="mainFrame">VIDEOS</a></li>
+  <li class="sub_menu"><a class="sub_menu" style="color:#FFFFFF;width:100px;" href="media/animations/animations.html" target="mainFrame">ANIMATIONS</a></li>
+</ul>
+</div>
+
+<div class="sub_menu" id="sub6">
+<ul class="sub_menu">
+  <li class="sub_menu"><a class="sub_menu" style="width:500px;" href=""></a></li> <!-- spacer -->
+  <li class="sub_menu"><a class="sub_menu" style="color:#FFFFFF;width:100px;" href="team

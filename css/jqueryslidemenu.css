@@ -1,0 +1,35 @@
+#header {
+	background: #090F1B;
+/*  background: #090F1B url-(images/logosilver5.png) no-repeat; */
+	height:150px;
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	padding: 0 0 0 0;
+	background-position: center;
+	z-index:5000;
+}
+
+#techhoundslogo {
+	margin-left: 3%;
+	margin-top:3%;
+	border:0px;
+	position: absolute;
+	z-index:500000;
+}
+
+#firstlogo {
+	margin-left: 85%;
+	margin-top:1%;
+	border:0px;
+	position: absolute;
+	z-index:500000;
+}
+
+body
+{
+margin: 0;
+padding: 0;
+font-family: verdana;
+font-size: 14px;
+}

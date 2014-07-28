@@ -1,0 +1,166 @@
+html
+{
+height:100%;
+}
+
+hr
+{
+color: #052743;
+}
+
+body
+{
+margin: 0;
+padding: 0;
+font-family: verdana;
+font-size: 14px;
+color: #ffffff;
+background-color:#000000;
+}
+
+A:link, A:visited, A:active
+{
+color: orange;
+}
+
+A:hover
+{
+color: #999999;
+}
+
+p.head
+{
+color: orange;
+font-weight: bold;
+font-size: 20px;
+text-decoration: none;
+}
+
+#bg 
+{
+position:absolute;
+z-index:0;
+top:0; 
+left:0; 
+width:100%; 
+height:100%;
+}
+
+#header {
+	background: #090F1B;
+/*  background: #090F1B url-(images/logosilver5.png) no-repeat; */
+	height:150px;
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	padding: 0 0 0 0;
+	background-position: center;
+	z-index:5000;
+}
+
+#techhoundslogo {
+	margin-left: 3%;
+	margin-top:3%;
+	border:0px;
+	position: absolute;
+	z-index:500000;
+}
+
+#firstlogo {
+	margin-left: 85%;
+	margin-top:1%;
+	border:0px;
+	position: absolute;
+	z-index:500000;
+}
+
+#content 
+{
+position:relative; 
+z-index:1;
+}
+
+div#fix 
+{
+position:fixed; 
+bottom:0;
+ right:0;
+}
+
+div.topmenudiv
+{
+background: url(images/toprepeatbg.png) center center repeat-x;
+}
+
+tr.menualign
+{
+margin-left: 0px;
+}
+
+.solidblockmenu ul
+{
+margin: 0;
+padding: 0px;
+float: left;
+font: bold 10px Tahoma;
+width: 100%;
+height: 100%;
+border-width: 1px 0;
+background: black url(ddtabmenufiles/media/blockdefault.gif) center center repeat-x;
+}
+
+.solidblockmenu li
+{
+display:inline;
+margin-left:0px;
+float:left;
+}
+
+.solidblockmenu li a
+{
+float: left;
+color: white;
+padding:9px 20px;
+text-decoration: none;
+height:100%;
+}
+
+.solidblockmenu li a:visited
+{
+color: white;
+}
+
+.solidblockmenu li a:hover, .solidblockmenu li a.current
+{
+color: white;
+background: transparent url(ddtabmenufiles/media/blockactive.gif) center center repeat-x;
+height:100%;
+}
+
+.tabcontainer
+{
+clear: center;
+width:100%;
+height:100%;
+}
+
+*:first-child+html .ieclass
+{ /*IE7 hack to remove gap between menu and sub contents*/
+margin-top: -1em;
+height: 25px;
+}
+
+* html .ieclass
+{ /*IE6 and below hack to remove gap between menu and sub contents*/
+margin-top: -1em;
+height: 25px; 
+}
+
+.tabcontent
+{
+display:none;
+}
+
+div.middle {
+	margin-left:236px;
+}

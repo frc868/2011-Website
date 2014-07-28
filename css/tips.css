@@ -1,0 +1,32 @@
+div#wn	{ 
+	position:relative; 
+	width:720px; height:270px; 
+	overflow:hidden;	
+	}
+#tips, #tips li{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+#tips{
+	width:200px;
+	font-size:16px;
+	line-height:120%;
+	}
+#tips li{
+	padding:20px;
+	display:none; /* hide the items at first only */
+	}
+
+
+#contentwrapper{
+	width: 200px;
+	height: 200px;
+	background-color: #0f1d34;
+	padding: 5px;
+}
+
+.billcontent{
+	width: 100%;
+	display:block;
+}

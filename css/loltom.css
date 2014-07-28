@@ -1,0 +1,73 @@
+@import url("../jquery/themes/dot-luv/ui.all.css");
+@import url("../js/jcarousel/style.css");
+@import url("../js/jcarousel/lib/jquery.jcarousel.css");
+@import url("../js/jcarousel/skins/tango/skin.css");
+@import url("jqueryslidemenu.css");
+@import url("tips.css");
+
+body {
+	margin:0;
+	z-index:1;
+}
+
+#sponsors {
+	margin: 0 auto 0 auto;
+	width:210px;
+	height:700px;
+	float:right;
+	display:inline;
+	border:30px;
+	background-image:url('../images/black.png');
+	background-repeat:x;
+	background-repeat:y;
+}
+
+#greetingsimg {
+	width:600px; 
+	height:250px; 
+	border-color:#FFFFFF;
+	margin-top:30px;
+	position:relative;
+	border:5px solid white;
+}
+#carousel1 {
+	width:950px;
+	text-align:center;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+#carousel2 {
+	display: inline;
+	float: left;
+	height: 700px;
+	margin: 0 auto 0 auto;
+	text-align: center;
+	width: 720px;
+	border:30px;
+	background-image:url('../images/black.png');
+	background-repeat:x;
+	background-repeat:y;
+}
+
+
+#fader {
+	position:relative;
+	top:2px; 
+	left:0px;
+	width:100%;
+	margin-top:-10px;
+	height:40px;
+	text-align:left;
+	color:#FFFFFF
+}
+
+#fade_base {
+	width:950px;
+	padding:1px;
+	height:12px;
+	width:100%;
+	margin-top:16px;
+	z-index:4000;
+	align:center;
+}
