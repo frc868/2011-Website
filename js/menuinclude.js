@@ -11,7 +11,7 @@ document.write("  <li><a href='http://fishyfish235.github.io/2011Website/team/ab
 document.write("  <li><a href='http://fishyfish235.github.io/2011Website/team/awards/awards/'>Awards</a></li>");
 document.write("  <li><a href='http://fishyfish235.github.io/2011Website/team/branches/branches/'>Branches</a></li>");
 document.write("  <li><a href='http://fishyfish235.github.io/2011Website/team/FIRSTEP/FIRSTEP/'>FIRSTEP</a></li>");
-document.write("  <li><a href='http://fishyfish235.github.io/2011Website/team/pastseasonarch/seasonarchive/'>Season Archive</a></li>");
+document.write("  <li><a href='http://fishyfish235.github.io/2011Website/team/pastseasonarch/'>Season Archive</a></li>");
 document.write("  <li><a href='http://fishyfish235.github.io/2011Website/team/members/memberbios/'>Members</a></li>");
 document.write("  </ul>");
 document.write("</li>");
