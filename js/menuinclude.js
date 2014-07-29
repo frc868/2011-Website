@@ -31,9 +31,9 @@ document.write("  <li><a href='http://fishyfish235.github.io/2011Website/media/v
 document.write("  <li><a href='http://fishyfish235.github.io/2011Website/media/animations/animations/'>Animations</a></li>");
 document.write("  </ul>");
 document.write("</li>");
-document.write("<li><a href='#'>sponsors</a>");
+document.write("<li><a href='#'>Sponsors</a>");
 document.write("  <ul>");
-document.write("  <li><a href='http://fishyfish235.github.io/2011Website/sponsors/currentspons/'>Current sponsors</a></li>");
+document.write("  <li><a href='http://fishyfish235.github.io/2011Website/sponsors/currentspons/'>Current Sponsors</a></li>");
 document.write("  <li><a href='http://fishyfish235.github.io/2011Website/sponsors/becomespons/'>Become A Sponsor</a></li>");
 document.write("  </ul>");
 document.write("</li>");
