@@ -7,12 +7,12 @@ document.write("<div style='width:100%;height:3px;background-color:#F3BD01;'></d
 document.write("<li><a href='http://fishyfish235.github.io/2011Website/'>Home</a></li>");
 document.write("<li><a href='#'>Team</a>");
 document.write("  <ul>");
-document.write("  <li><a href='http://fishyfish235.github.io/2011Website/team/aboutus/about/'>About Us</a></li/>");
-document.write("  <li><a href='http://fishyfish235.github.io/2011Website/team/awards/awards/'>Awards</a></li>");
-document.write("  <li><a href='http://fishyfish235.github.io/2011Website/team/branches/branches/'>Branches</a></li>");
-document.write("  <li><a href='http://fishyfish235.github.io/2011Website/team/FIRSTEP/FIRSTEP/'>FIRSTEP</a></li>");
+document.write("  <li><a href='http://fishyfish235.github.io/2011Website/team/aboutus/'>About Us</a></li/>");
+document.write("  <li><a href='http://fishyfish235.github.io/2011Website/team/awards/'>Awards</a></li>");
+document.write("  <li><a href='http://fishyfish235.github.io/2011Website/team/branches/'>Branches</a></li>");
+document.write("  <li><a href='http://fishyfish235.github.io/2011Website/team/FIRSTEP/'>FIRSTEP</a></li>");
 document.write("  <li><a href='http://fishyfish235.github.io/2011Website/team/pastseasonarch/'>Season Archive</a></li>");
-document.write("  <li><a href='http://fishyfish235.github.io/2011Website/team/members/memberbios/'>Members</a></li>");
+document.write("  <li><a href='http://fishyfish235.github.io/2011Website/team/members/'>Members</a></li>");
 document.write("  </ul>");
 document.write("</li>");
 document.write("<li><a href='#'>FIRST</a>");
