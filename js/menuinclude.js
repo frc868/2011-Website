@@ -43,7 +43,7 @@ document.write("  <li><a href='http://fishyfish235.github.io/2011Website/FIRST/l
 document.write("  <li><a href='https://www.google.com/calendar/embed?src=6h3644bidpfp4m3da16mkjdtbk@group.calendar.google.com&ctz=America/New_York&gsessionid=OK'>Calendar</a></li>");
 document.write("  </ul>");
 document.write("</li>");
-document.write("<li><a href='http://fishyfish235.github.io/2011Website/contact/contacts/'>Contact</a></li>");
+document.write("<li><a href='http://fishyfish235.github.io/2011Website/contact/'>Contact</a></li>");
 document.write("</ul>");
 document.write("<br style='clear: left' />");
 document.write("</div><div style='width:100%;height:3px;background-color:#F3BD01;'>");
