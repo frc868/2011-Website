@@ -1,6 +1,6 @@
 document.write("<div id='header'>");
 document.write("<a href='http://fishyfish235.github.io/2011Website/'><img src='http://fishyfish235.github.io/2011Website/images/newlogo2.png' id='techhoundslogo'></a>");
-document.write("<a href='http://www.usfirst.org/' target='_blank'><img src='http://www.techhounds.com/images/firstlogotrans.png' alt='FIRST logo' id='firstlogo'></a>");
+document.write("<a href='http://www.usfirst.org/' target='_blank'><img src='http://fishyfish235.github.io/2011Website/images/firstlogotrans.png' alt='FIRST logo' id='firstlogo'></a>");
 document.write("</div>");
 document.write("<div id='myslidemenu' class='jqueryslidemenu' style='margin-top: 0px; z-index:9001; position:relative; align:center;'>");
 document.write("<div style='width:100%;height:3px;background-color:#F3BD01;'></div><ul>");
