@@ -242,19 +242,3 @@ function dw_getLayerOffset(el, oCont, sOff) {
     if ( el[clientOff] ) val += el[clientOff];
     return val;
 }
-
-/////////////////////////////////////////////////////////////////////
-// Reminder about licensing requirements
-// See Terms of Use at www.dyn-web.com/business/terms.php
-// OK to remove after purchasing a license or if using on a personal site.
-function dw_checkAuth() {
-    var loc = window.location.hostname.toLowerCase();
-    var msg = 'A license is required for all but personal use of this code.\n' + 
-        'Please adhere to our Terms of Use if you use dyn-web code.';
-    if ( !( loc == '' || loc == '127.0.0.1' || loc.indexOf('localhost') != -1 
-         || loc.indexOf('192.168.') != -1 || loc.indexOf('dyn-web.com') != -1 ) ) {
-        alert(msg);
-    }
-}
-dw_Event.add( window, 'load', dw_checkAuth);
-/////////////////////////////////////////////////////////////////////
