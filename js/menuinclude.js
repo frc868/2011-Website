@@ -1,4 +1,4 @@
-document.write("<div id='header'>");
+ document.write("<div id='header'>");
 document.write("<a href='http://fishyfish235.github.io/2011Website/'><img src='http://fishyfish235.github.io/2011Website/images/newlogo2.png' id='techhoundslogo'></a>");
 document.write("<a href='http://www.usfirst.org/' target='_blank'><img src='http://fishyfish235.github.io/2011Website/images/firstlogotrans.png' alt='FIRST logo' id='firstlogo'></a>");
 document.write("</div>");
@@ -31,10 +31,10 @@ document.write("  <li><a href='http://fishyfish235.github.io/2011Website/media/v
 document.write("  <li><a href='http://fishyfish235.github.io/2011Website/media/animations/animations/'>Animations</a></li>");
 document.write("  </ul>");
 document.write("</li>");
-document.write("<li><a href='#'>Sponsors</a>");
+document.write("<li><a href='#'>sponsors</a>");
 document.write("  <ul>");
-document.write("  <li><a href='http://fishyfish235.github.io/2011Website/Sponsors/currentspons/sponsors/'>Current Sponsors</a></li>");
-document.write("  <li><a href='http://fishyfish235.github.io/2011Website/Sponsors/becomespons/become_a_sponsor/'>Become A Sponsor</a></li>");
+document.write("  <li><a href='http://fishyfish235.github.io/2011Website/sponsors/currentspons/'>Current sponsors</a></li>");
+document.write("  <li><a href='http://fishyfish235.github.io/2011Website/sponsors/becomespons/'>Become A Sponsor</a></li>");
 document.write("  </ul>");
 document.write("</li>");
 document.write("<li><a href='#'>'11 Season</a>");
