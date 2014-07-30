@@ -39,7 +39,7 @@ document.write("  </ul>");
 document.write("</li>");
 document.write("<li><a href='#'>'11 Season</a>");
 document.write("  <ul>");
-document.write("  <li><a href='http://fishyfish235.github.io/2011Website/FIRST/logomotion/game11/'>2011 Information</a></li>");
+document.write("  <li><a href='http://fishyfish235.github.io/2011Website/FIRST/logomotion/'>2011 Information</a></li>");
 document.write("  <li><a href='https://www.google.com/calendar/embed?src=6h3644bidpfp4m3da16mkjdtbk@group.calendar.google.com&ctz=America/New_York&gsessionid=OK'>Calendar</a></li>");
 document.write("  </ul>");
 document.write("</li>");
